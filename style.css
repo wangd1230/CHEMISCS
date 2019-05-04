@@ -31,12 +31,14 @@ body{
 	position: fixed;
 	top: 0;
 	height: 106px;
+	z-index: 999;
+	background-color: #ffffff;
 }
 .top{
 	display: flex;
 }
 .top div{
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .searchbox{
 	width: 100%;
@@ -52,6 +54,10 @@ body{
 .space{
 	height: 106px;
 }
-.books{
-	
+.bookList,.typeList{
+	overflow: scroll;
+	display: flex;
+}
+.book,.type{
+	width: 70%;
 }
