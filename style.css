@@ -33,12 +33,16 @@ body{
 	height: 106px;
 	z-index: 999;
 	background-color: #ffffff;
+	padding-bottom: 15px;
 }
 .top{
 	display: flex;
-}
-.top div{
 	justify-content: space-between;
+}
+.topRight{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .searchbox{
 	width: 100%;
