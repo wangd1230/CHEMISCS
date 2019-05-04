@@ -1,0 +1,57 @@
+body{
+	width: 100%;
+	margin: 0;
+}
+.container{
+	width: 100%;
+}
+.main{
+	width: 100%;
+}
+.footer{
+	margin: 0;
+	display: flex;
+	height: 83px;
+	width: 100%;
+	background-color: #f8f8f8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.footer div{
+	width: 33%;
+	text-align: center;
+}
+.firstPage{
+	width: 90%;
+	margin: 0 auto;
+}
+.header{
+	width: 90%;
+	position: fixed;
+	top: 0;
+	height: 106px;
+}
+.top{
+	display: flex;
+}
+.top div{
+	justify-content: space-around;
+}
+.searchbox{
+	width: 100%;
+}
+.searchbox input{
+	border: solid 1px #f7f7f7;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	height: 42px;
+	width: 100%;
+	/*margin-left: 5%*/
+}
+.space{
+	height: 106px;
+}
+.books{
+	
+}
