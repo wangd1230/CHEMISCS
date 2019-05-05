@@ -8,7 +8,7 @@ body{
 .main{
 	width: 100%;
 	padding-bottom: 83px;
-	background-image: url('img/bg.png');
+	/*background-image: url('img/bg.png');*/
 	background-repeat: no-repeat;
 }
 .footer{
@@ -28,6 +28,7 @@ body{
 .firstPage{
 	width: 90%;
 	margin: 0 auto;
+	/*display: block;*/
 }
 .header{
 	width: 90%;
@@ -75,11 +76,13 @@ body{
 .secondPage{
 	width: 90%;
 	margin: 0 auto;
+	display: none;
 }
 .S-header{
 	width: 90%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 	height: 120px;
 	/*background-color: black;*/
@@ -89,6 +92,11 @@ body{
 	width: 71px;
 	height: 71px;
 }
+.signal{
+	font-size: 11px;
+	color: #8c8c8c;
+	margin-top: 0;
+}
 .S-tag{
 	height: 60px;
 	display: flex;
@@ -96,7 +104,11 @@ body{
 .S-tag div{
 	width: 33.333%;
 	height: 60px;
-	background-color: red;
+	/*background-color: red;*/
+}
+.S-tag div p{
+	margin: 0 ;
+	text-align: center;
 }
 .S-list{
 	margin-top: 30px;
