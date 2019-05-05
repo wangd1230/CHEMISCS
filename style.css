@@ -8,6 +8,8 @@ body{
 .main{
 	width: 100%;
 	padding-bottom: 83px;
+	background-image: url('img/bg.png');
+	background-repeat: no-repeat;
 }
 .footer{
 	margin: 0;
@@ -69,4 +71,33 @@ body{
 	font-size: 10px;
 	color: #bababa;
 	width: 90%;
+}
+.secondPage{
+	width: 90%;
+	margin: 0 auto;
+}
+.S-header{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 120px;
+	/*background-color: black;*/
+	/*background-image: url('img/bg.png');*/
+}
+.S-header img{
+	width: 71px;
+	height: 71px;
+}
+.S-tag{
+	height: 60px;
+	display: flex;
+}
+.S-tag div{
+	width: 33.333%;
+	height: 60px;
+	background-color: red;
+}
+.S-list{
+	margin-top: 30px;
 }
