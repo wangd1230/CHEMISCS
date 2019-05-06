@@ -22,8 +22,12 @@ body{
 	left: 0;
 }
 .footer div{
+	padding-top: 15px;
 	width: 33%;
 	text-align: center;
+}
+.footer p{
+	margin: 0;
 }
 .firstPage{
 	width: 90%;

@@ -4,6 +4,7 @@ var secondPage = document.querySelector('.secondPage');
 var firstPage = document.querySelector('.firstPage');
 var main = document.querySelector('.main');
 var book1 = document.querySelector('.book1');
+var ar = document.querySelector('.ar');
 
 me.addEventListener('click',function(){
 	firstPage.style.display = 'none';
@@ -18,4 +19,7 @@ home.addEventListener('click',function(){
 })
 book1.addEventListener('click',function(){
 	window.location.href = 'pages/newton.html';
+})
+ar.addEventListener('click',function(){
+	window.location.href = 'part-1/index.html';
 })
