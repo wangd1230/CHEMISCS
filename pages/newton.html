@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NEWTON</title>
+	<style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        canvas{
+        	background-color: #fff !important;
+            width: 300px !important; 
+        }
+    </style>
+</head>
+<body>
+	<script type="text/javascript" src="http://jdc.jd.com/demo/matterjs/matter.min.js"></script>
+	<script type="text/javascript" src="../js/base.js"></script>
+	<!-- <input type="file" id="take-picture" accept="image/*"> -->
+	<script type="text/javascript">
+		
+
+        var newtonsCradle = Composites.newtonsCradle(300, 320, 5, 25, 150);
+
+        World.add(engine.world, newtonsCradle);
+
+    
+	</script>
+</body>
+</html>
